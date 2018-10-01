@@ -19,7 +19,7 @@
 #include <stdexcept>
 
 // Comparator dice cuándo un valor de tipo T es más prioritario que otro
-template <typename T = int, typename Comparator = std::greater<T>>
+template <typename T = int, typename Comparator = std::less<T>>
 class PriorityQueue {
 
 	// vector que contiene los datos

@@ -32,7 +32,7 @@ bool resuelveCaso() {
 	if (eventos == 0)
 		return false;
 
-	PriorityQueue<Registro> cola;
+	PriorityQueue<Registro, std::greater<Registro>> cola;
 
 	while (eventos > 0) {
 		std::cin >> tipo;
