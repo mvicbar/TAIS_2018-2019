@@ -1,0 +1,3 @@
+﻿  solucion.cpp
+c:\hlocal\ec3\solucion.cpp(46): warning C4018: '<': signed/unsigned mismatch
+  EC3.vcxproj -> C:\hlocal\Debug\EC3.exe
